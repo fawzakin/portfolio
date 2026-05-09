@@ -1,0 +1,239 @@
+body {
+    font-family: 'Faustina', serif;
+    color: #031030;
+    background: #222222;
+}
+
+h1 { margin: 0 auto 0 auto; font-size: 42px; }
+h2 { margin: 0 auto 0 auto; font-size: 16px; }
+li.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0px 0px 0px 16px; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.divider {
+    margin: 12px;
+}
+.title {
+    font-family: 'Oswald';
+    color: #3073FF;
+}
+
+.title-home {
+    font-size: 42px;
+}
+
+.nav-tab {
+    max-width: 540px;
+    min-width: 270px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 2px;
+    /* Top Right Bottom Left */
+    margin: 1.5em auto auto auto;
+    padding: 0.6em 0.1em 0.6em 0.1em;
+    /* Portion from https://css.glass */
+    background: rgba(255, 255, 255, 0.54);
+    box-shadow: 3px 3px 0px rgba(200, 200, 200, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.nav-child {
+    background-image: linear-gradient(to right, #40A9FF 0%, #449AEB 50%, #276EE8 100%);
+}
+
+.nav-child {
+    width: 120px;
+    background-size: 200% auto;
+
+    color: white;
+    font-family: 'Oswald', sans;
+    font-style: bold;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 64px;
+
+    transition: 0.4s;
+}
+
+.nav-child:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    scale: 1.03;
+}
+
+.active a {
+    background: rgba(40, 40, 40, 0.8);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    cursor: default;
+}
+
+.active a:hover {
+    background: rgba(40, 40, 40, 0.8);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.card {
+    max-width: 540px;
+    min-width: 270px;
+    /* Top Right Bottom Left */
+    margin: 1.5em auto auto auto;
+    padding: 0.6em 0.1em 0.6em 0.1em;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.54);
+    box-shadow: 3px 3px 0px rgba(200, 200, 200, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.desc-box {
+    margin: 0px 10px;
+}
+
+.desc {
+    padding: 6px 12px;
+    margin: 6px 12px;
+    background: rgba(250, 250, 250, 1);
+    border-radius: 16px;
+    box-shadow: 3px 3px 0px rgba(220, 220, 220, 1);
+}
+
+.profile-slot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 0 100px;
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-link{
+    background-image: linear-gradient(to right, #61b8ff 0%, #548AFF 50%, #2860ED 100%);
+}
+
+.button-link {
+    margin: 4px 10px;
+    width: 0px 10px;
+    background-size: 200% auto;
+
+    color: white;
+    font-family: 'Oswald', sans;
+    font-style: bold;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 64px;
+
+    transition: 0.4s;
+}
+
+.button-link:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    scale: 1.04;
+}
+
+/* =============== *
+ * PROJECT SECTION *
+ * =============== */
+.banner-slot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.banner-image {
+    min-width: 240px;
+    max-width: 500px;
+    border-radius:10px;
+}
+
+.button-mini-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-mini {
+    background-image: linear-gradient(to right, #61b8ff 0%, #548AFF 50%, #2860ED 100%);
+}
+
+.button-mini {
+    margin: 4px 8px;
+    background-size: 200% auto;
+    width: 100%;
+
+    color: white;
+    font-family: 'Oswald', sans;
+    font-style: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+    cursor: pointer;
+    padding: 9px;
+    border: none;
+    border-radius: 64px;
+
+    transition: 0.4s;
+}
+
+.button-mini:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    scale: 1.04;
+}
+
+.button-disabled {
+    background-image: linear-gradient(to right, #bdbdbd 0%, #bdbdbd 50%, #bdbdbd 100%);
+}
+
+.button-disabled:hover {
+    scale: 1;
+}
+
+.background { /* The background is set at index.html */
+    background-image: url("/img/bg.webp");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}

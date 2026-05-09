@@ -1,0 +1,3 @@
+# Make sure this site only appears to employers I send my CV to.
+User-agent: *
+Disallow: /
