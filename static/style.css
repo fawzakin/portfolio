@@ -226,7 +226,7 @@ li.no-bullets {
 }
 
 .background { /* The background is set at index.html */
-    background-image: url("/img/bg.webp");
+    background-image: url("/portfolio/img/bg.webp");
     position: fixed;
     top: 0;
     left: 0;
