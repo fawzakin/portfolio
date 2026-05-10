@@ -1,4 +1,4 @@
-# My Portfolio Website
+# My Portfolio Website (Iteration Two)
 This is my portfolio website for my employer. It also serves as a demo for my web design and development skill. This is NOT meant to be public website.
 
 It's still currently in development as I want to make it feel like many other "professional" looking portfolio website without heavy bloat or use of AI-generated code base. This site is made in pure HTML, CSS, and possibly Javascript.
